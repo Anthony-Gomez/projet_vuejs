@@ -9,40 +9,6 @@
   </div>
 </template>
 
-<style>
-
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-h1, h2 {
-  font-weight: normal;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-#topBar{
-  background-color: #280338!important;
-  color: white;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-a {
-  color: #42b983;
-}
-
-nav{
-  font-family: 'Major Mono Display', monospace;
-}
+<style lang="css">
+@import "assets/css/app.css";
 </style>

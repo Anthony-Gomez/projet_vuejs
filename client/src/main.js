@@ -7,11 +7,11 @@ import  {faShoppingBasket} from '@fortawesome/free-solid-svg-icons'
 import  {faHeart} from '@fortawesome/free-solid-svg-icons'
 import  {faMinusCircle} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import Accueil from './components/Accueil.vue';
-import Restaurants from './components/Restaurants.vue';
-import Commande from './components/Commande.vue';
-import infosRestaurant from './components/infosRestaurant.vue';
-import Restos from './components/Restos.vue'
+import Accueil from './components/accueil.vue';
+import Restaurants from './components/restaurants.vue';
+import Commande from './components/commande.vue';
+import InfosRestaurant from './components/infosRestaurant.vue';
+import Restos from './components/restos.vue'
 
 library.add(faUtensils)
 library.add(faShoppingBasket)
@@ -26,7 +26,7 @@ const routes = [
 	{path:'/Restaurants', component: Restaurants},
 	{path:'/Commande', component: Commande},
 	{path: '/server/restos',name: 'Restos',component: Restos},
-	{path:'/infosRestaurant', component: infosRestaurant},
+	{path:'/infosRestaurant', component: InfosRestaurant},
 	{path:'/', component: Accueil}
 ]
 
