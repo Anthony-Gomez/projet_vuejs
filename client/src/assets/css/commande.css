@@ -1,0 +1,70 @@
+.imageClass{
+    position: absolute;
+    width: 148px;
+    height: 148px;
+    margin-left: 52px;
+}
+.menuOutsideClass{
+    float: left;
+    width: 400px;
+    height: 150px;
+    border: solid black 1px;
+    margin-left: 20px;
+    margin-top: 30px;
+    background: rgb(240, 239, 239, 0.55);
+}
+.spanClass{
+    color: rgb(117, 117, 117, 0.55);
+    margin-top: 5px;
+}
+
+.paimentClass{
+    width: 400px;
+    height: 250px;
+    background: rgb(240, 239, 239, 0.55);
+
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 32px;
+}
+
+.paimentClass:hover, .menuOutsideClass:hover, .labelInsidePaiment:hover{
+    cursor: pointer;
+}
+
+#paimentInsideClass{
+    width: 340px;
+    height: 60px;
+    background: #240036!important;
+    margin-top: 20px;
+    margin-left: 25px;
+    color: white;
+}
+
+.labelInsidePaiment{
+    margin-top: 10px; 
+    font-size: 18px; 
+    font-weight: bold;
+    margin-left: 110px;
+}
+
+.menuInsideClass{
+    float: left;
+    width: 220px;
+    height: 150px;
+    text-align: left;
+    padding: 15px;
+    font-size: 15px;
+    color: black;
+
+}
+.containerCommande{
+    width: 1200px;
+    height: 950px;	
+
+    float: left;
+    margin-left: 125px;
+}
+.labelChoix{
+    float: left;
+}

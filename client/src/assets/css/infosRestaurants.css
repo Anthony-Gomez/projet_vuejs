@@ -1,0 +1,25 @@
+#commande{
+    width: 125px;
+    background-color: white;
+    color: black;
+    font-weight:bold;
+    position: absolute;
+    margin-top: -170px;
+    margin-left: 920px;
+}
+.mapDiv{
+    margin-right:210px;
+    margin-top: 5px;
+}
+.adresseLabel{
+    color:white;
+    background-color:#0183c1;
+    margin-right: 535px;
+    color: white;
+}
+.horaireLabel{
+    background-color:#089a64;
+    color: white;
+    margin-top:15px;
+    margin-right: 425px;
+}

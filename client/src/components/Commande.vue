@@ -29,8 +29,11 @@
 	</div>
 </template>
 
-<script>
+<style lang="css">
+@import "../assets/css/commande.css";
+</style>
 
+<script>
 	export default {
 		data() {
 			return {
@@ -44,7 +47,7 @@
 							nom: "Lasagnes de viande",
 							description: "Lasagnes de boeuf haché cuisiné à l'italienne pour 1 personne",
 							prix: 23.50,
-							image: "src/assets/meals/1.png"
+							image: "src/assets/img/meals/1.png"
 						},
 
 						{
@@ -53,7 +56,7 @@
 							nom: "Poulet au curry",
 							description: "Poulet (issu de l'agriculture biologique française) mijoté aux épices indiens",
 							prix: 15.50,
-							image: "src/assets/meals/2.png"
+							image: "src/assets/img/meals/2.png"
 						},
 
 						{
@@ -62,7 +65,7 @@
 							nom: "Pièce d'entrecôte au grill",
 							description: "Origine française. Intensité de la cuisson ''à point'' par défaut, autre cuisson sur demande. Sauce poivre ou échalotte au choix",
 							prix: 20.50,
-							image:"src/assets/meals/3.png"
+							image:"src/assets/img/meals/3.png"
 						},
 
 						{
@@ -71,7 +74,7 @@
 							nom: "Cheeseburger steak-frites",
 							description: "Origine française. Intensité de la cuisson ''à point'' par défaut, autre cuisson sur demande.",
 							prix: 14.50,
-							image:"src/assets/meals/4.png"
+							image:"src/assets/img/meals/4.png"
 						}
 					],
 
@@ -82,7 +85,7 @@
 							nom: "Escalope à la milanaise",
 							description: "Origine française. Servi avec des pâtes",
 							prix: 10.50,
-							image:"src/assets/meals/5.png"
+							image:"src/assets/img/meals/5.png"
 						},
 
 						{
@@ -91,7 +94,7 @@
 							nom: "Magret de canard",
 							description: "Origine France Sud Ouest, farci au raisins",
 							prix: 23.90,
-							image:"src/assets/meals/6.png"
+							image:"src/assets/img/meals/6.png"
 						},
 
 						{
@@ -100,7 +103,7 @@
 							nom: "Blanquette de veau",
 							description: "Napée de sauce à la crème et servi avec des légumes bouilliss",
 							prix: 16.50,
-							image:"src/assets/meals/7.png"
+							image:"src/assets/img/meals/7.png"
 						},
 
 						{
@@ -109,7 +112,7 @@
 							nom: "Lasagnes de viande",
 							description: "Lasagnes de boeuf haché cuisiné à l'italienne pour 1 personne",
 							prix: 23.50,
-							image: "src/assets/meals/1.png"
+							image: "src/assets/img/meals/1.png"
 						}
 					],
 
@@ -120,7 +123,7 @@
 							nom: "Tomates farcies",
 							description: "Cuisiné à la provançale. Farcis de viande",
 							prix: 10.50,
-							image: "src/assets/meals/9.png"
+							image: "src/assets/img/meals/9.png"
 						},
 
 						{
@@ -129,7 +132,7 @@
 							nom: "Moules frites",
 							description: "Cuisinées façon marinière.",
 							prix: 9.90,
-							image: "src/assets/meals/10.png"
+							image: "src/assets/img/meals/10.png"
 						},
 
 						{
@@ -138,7 +141,7 @@
 							nom: "Couscous",
 							description: "Cuisine orientale",
 							prix: 13.40,
-							image: "src/assets/meals/11.png"
+							image: "src/assets/img/meals/11.png"
 						},
 
 						{
@@ -147,7 +150,7 @@
 							nom: "Crêpe sucrée",
 							description: "Sauce caramel",
 							prix: 6.50,
-							image: "src/assets/meals/12.png"
+							image: "src/assets/img/meals/12.png"
 						}
 					],
 
@@ -158,7 +161,7 @@
 							nom: "Poulet au curry",
 							description: "Poulet (issu de l'agriculture biologique française) mijoté aux épices indiens",
 							prix: 14.50,
-							image:"src/assets/meals/2.png"
+							image:"src/assets/img/meals/2.png"
 						},
 
 						{
@@ -167,7 +170,7 @@
 							nom: "Pavé de saumon",
 							description: "Servi avec du riz et galettes de pommes de terre",
 							prix: 15.50,
-							image: "src/assets/meals/14.png"
+							image: "src/assets/img/meals/14.png"
 						},
 
 						{
@@ -176,7 +179,7 @@
 							nom: "Escalope à la milanaise",
 							description: "Origine française. Servi avec des pâtes",
 							prix: 10.50,
-							image:"src/assets/meals/5.png"
+							image:"src/assets/img/meals/5.png"
 						},
 
 						{
@@ -185,7 +188,7 @@
 							nom: "Magret de canard",
 							description: "Origine France Sud Ouest, farci au raisins",
 							prix: 23.90,
-							image:"src/assets/meals/6.png"
+							image:"src/assets/img/meals/6.png"
 						}
 					]
 				]
@@ -238,76 +241,3 @@
 		}
 	}
 </script>
-	
-<style>
-	.imageClass{
-		position: absolute;
-		width: 148px;
-		height: 148px;
-		margin-left: 52px;
-	}
-	.menuOutsideClass{
-		float: left;
-		width: 400px;
-		height: 150px;
-		border: solid black 1px;
-		margin-left: 20px;
-		margin-top: 30px;
-		background: rgb(240, 239, 239, 0.55);
-	}
-	.spanClass{
-		color: rgb(117, 117, 117, 0.55);
-		margin-top: 5px;
-	}
-
-	.paimentClass{
-		width: 400px;
-		height: 250px;
-		background: rgb(240, 239, 239, 0.55);
-
-		position: absolute;
-		margin-left: 900px;
-		margin-top: 32px;
-	}
-
-	.paimentClass:hover, .menuOutsideClass:hover, .labelInsidePaiment:hover{
-		cursor: pointer;
-	}
-
-	#paimentInsideClass{
-		width: 340px;
-		height: 60px;
-		background: #240036!important;
-		margin-top: 20px;
-		margin-left: 25px;
-		color: white;
-	}
-
-	.labelInsidePaiment{
-		margin-top: 10px; 
-		font-size: 18px; 
-		font-weight: bold;
-		margin-left: 110px;
-	}
-
-	.menuInsideClass{
-		float: left;
-		width: 220px;
-		height: 150px;
-		text-align: left;
-		padding: 15px;
-		font-size: 15px;
-		color: black;
-
-	}
-	.containerCommande{
-		width: 1200px;
-		height: 950px;	
-
-		float: left;
-		margin-left: 125px;
-	}
-	.labelChoix{
-		float: left;
-	}
-</style>

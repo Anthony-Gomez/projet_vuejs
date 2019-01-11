@@ -1,7 +1,6 @@
 <template>
   <div class="restos">
     <h1>Restos</h1>
-    Ce fichier va contenir tous les restos
     <div v-for="resto in restos" :key="resto">
       <p>
         <span><b>{{ resto.title }}</b></span><br />
