@@ -25,3 +25,8 @@ h5{
     font-family:monospace;
     color:white;
 }
+
+.restaurants{
+    position:relative;
+    height:400px;
+}

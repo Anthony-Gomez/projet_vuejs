@@ -15,9 +15,13 @@
     padding: 0;
   }
   
-  #topBar{
+  .topBar{
     background-color: #280338!important;
     color: white;
+  }
+
+  .menuButtons{
+    border:1px solid white;
   }
   
   li {

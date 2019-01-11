@@ -68,3 +68,24 @@
 .labelChoix{
     float: left;
 }
+
+.commande{
+    text-align: center;
+    margin-right: 10px;
+    font-weight: bold; 
+}
+
+.commande > hr{
+    margin-top:25px;
+}
+
+#panier{
+    text-align: left;
+    margin-left: 120px;
+}
+
+#prixGlobal{
+    text-align: right;
+    margin-right: 10px;
+    font-weight: bold;
+}

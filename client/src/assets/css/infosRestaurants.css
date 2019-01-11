@@ -23,3 +23,15 @@
     margin-top:15px;
     margin-right: 425px;
 }
+
+.name{
+    color:white
+}
+
+#infosRestaurant{
+    background-color:#280338;
+}
+
+.iframe{
+    border:0;
+}

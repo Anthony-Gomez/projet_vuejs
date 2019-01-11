@@ -1,20 +1,14 @@
 <template>
 	<div id="user">
 		<h3>Liste des restaurants</h3>
-
-		<div v-for="resto in restaurants" :key="resto">
-			
-			
-				<router-link :to="resto.infoPath">
-				<div style="position:relative; height:400px">
+		<div v-for="resto in restaurants" :key="resto"><router-link :to="resto.infoPath">
+				<div class="restaurants">
 					<h5>{{ resto.nom }}</h5>
 					<img class="rounded mx-auto d-block" :src="resto.image" :alt="resto.nom">
 				</div>
 				</router-link>
-			
 		</div>
 		<br>
-		<!-- <app-info></app-info> !-->
 	</div>
 </template>
 
